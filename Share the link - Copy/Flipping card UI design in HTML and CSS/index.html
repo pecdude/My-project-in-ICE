@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipping card UI design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video id="video" width="100%" height="100%" autoplay muted loop>
+    <source src="video mp4.mp4" type="video/mp4">
+  </video>
+  <section>
+    <div class="container">
+      <div class="card front-face">
+        <header>
+          <span class="logo">
+            <img src="./master card.png" alt="">
+            <h5>Master Card</h5>
+          </span>
+          <span class="chip">
+            <img src="./images (3).png" alt="" height="40px" width="68px">
+          </span>
+        </header>
+        <div class="card-details">
+          <div class="name-number">
+            <h6>Card Number</h6>
+            <h5 class="Number">8014 7651 5647 7890</h5>
+            <h5 class="name">Alile Peculiar Osakaro</h5> 
+          </div>
+          <div class="valid-date">
+            <h6>Valid Thru</h6>
+            <h5>08/30</h5>
+          </div>
+        </div>
+      </div>
+      <div class="card back-face">
+        <h6 style="font-size: 9px;"> For customer service call +234-8145-846-643 or email at alilepeculiar@gamil.com </h6>
+        <span class="magnetic-strip"></span>
+        <div class="signature"><i>230</i></div>
+        <h5> this is a master card which is belong to Alile Peculiar Osakaro. Please if seen return to the rightful owner </h5>
+      </div>
+    </div>
+  </section>
+  <script>
+    var video = document.getElementById("video");
+    video.play().catch((error) => console.error(error));
+  </script>
+</body>
+</html>

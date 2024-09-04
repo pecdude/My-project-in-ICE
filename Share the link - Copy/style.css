@@ -1,0 +1,137 @@
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Video Background */
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7) saturate(0.6);
+  z-index: -1;
+}
+
+/* Body Styles */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* Add a background color */
+}
+
+/* Project Assignment Styles */
+.project-assignment {
+  max-width: 550px;
+  padding: 20px;
+  margin: 40px auto; /* Adjusted margin value */
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/* Project Link Styles */
+.project-assignment a {
+  text-decoration: none;
+  color: rgb(3, 3, 48);
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 10px; /* Adjusted margin value */
+}
+
+/* Image Slider Styles */
+.image_slider {
+  margin: 50px; /* Adjusted margin value */
+  text-align: center;
+}
+/* Project Assignment Styles */
+.project-assignment {
+    max-width: 550px;
+    padding: 20px;
+    margin: 40px auto;
+    background: #000;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Project Link Styles */
+  .project-assignment a {
+    text-decoration: none;
+    color: #fff; /* Changed text color to white */
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px;
+    
+  }
+  /* Project Assignment Styles */
+.project-assignment {
+    max-width: 550px;
+    padding: 20px;
+    margin: 40px auto;
+    background: rgba(0, 0, 0, 0.7); /* Adjusted background transparency */
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    outline-color: #fff;
+    filter: blur(225, 225, 225, 0.1);
+  }
+  /* Project Link Styles */
+.project-assignment a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px;
+    
+    transition: background-color 0.3s ease; /* Added transition effect */
+  }
+  
+ /* Project Link Styles */
+.project-assignment a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px;
+  
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .project-assignment a:hover {
+    background-color:  rgba(3, 3, 247, 0.295); /* Changed background color to a lighter blue on hover */
+  }
+/* Project Assignment Styles */
+.project-assignment {
+    max-width: 550px;
+    padding: 20px;
+    margin: 40px auto;
+    background: rgba(248, 246, 246, 0.116); /* Transparent black background */
+    color: #fff;
+    outline-color: #fff;
+    border: #fff;
+    border-radius: 5px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Added blur effect */
+  }
+
