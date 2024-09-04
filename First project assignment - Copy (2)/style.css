@@ -1,0 +1,65 @@
+* { padding: 0; margin: 0; box-sizing: border-box; font-family: calc();}
+body { height: 100vh; display:flex; align-items: center;
+justify-content: center; background-image: 
+linear-gradient( to bottom, hsl(0, 18%, 93%), #777, rgb(73, 46, 73))}
+.container{ position: relative; max-width: 400px; width: 100%; 
+    background-color: black; outline: 2px solid #faf7f7;
+    border-radius: 11px; padding: 10px 20px 20px; box-shadow: 0 6px 7px red;}
+    .buttons button{ padding: 11px; border: 20px;cursor: pointer; 
+        font-size: 20px; border-radius: 7px; border-color: azure;
+        background-image: 
+        linear-gradient(to bottom, #721796, #8e3e5f, #df86e7); 
+         .buttons-AC { background-image: linear-gradient( white,
+            rgb(36, 32, 32), black);}
+        color: azure; /* text color*/
+         font-weight: bold; 
+         outline: 2px solid #faf7f7; 
+         /* 2px wide white outline */ outline-offset: 2px; 
+         /* offset the outline by 2px*/
+         }
+         .buttons{ display: grid; grid-template-columns: 
+            repeat( 4, 1fr); grid-gap: 10px}
+            .display{ height: 80px; border: none; margin-bottom: 20px; text-align: right;
+            margin-top: 10px; font-size: 20px; color:rgb(163, 98, 152); 
+            outline-color: #8e3e5f; border-radius: 10px; 
+        width: 100%;} 
+        .operators{ color: #df86e7;}
+        .buttons button:active{ transform: scale(0.0)}
+.buttons button:active { background-color: #df86e7; transition: 
+    background-image 0.5s ease-in-out;}
+
+.buttons { background-image: 
+    linear-gradient( to bottom #f1f0f1,
+     #080808, rgb(59, 26, 26)); background-image: 100% 100%; 
+    background-color: #080808;}  
+    
+    .buttons button.operator[data-value="AC"] {
+        background-image: linear-gradient(to bottom, white, black);
+        }
+        
+        .buttons button.operator[data-value="DEL"] {
+        background-image: linear-gradient(to bottom, white, black);
+        }
+        
+        .buttons button.operator[data-value="%"] {
+        background-image: linear-gradient(to bottom, white, black);
+        }
+        
+        .buttons button.operator[data-value="/"] {
+        background-image: linear-gradient(to bottom, white, black);
+        }
+        
+        .buttons button.operator[data-value="*"] {
+        background-image: linear-gradient(to bottom, white, black);
+        }
+        
+        .buttons button.operator[data-value="-"] {
+        background-image: linear-gradient(to bottom, white, black);
+        }
+        
+        .buttons button.operator[data-value="+"] {
+        background-image: linear-gradient(to bottom, white, black);
+        }
+        
+        .buttons button.operator[data-value="="] {background-image: linear-gradient(to bottom, white, black);
+        }
