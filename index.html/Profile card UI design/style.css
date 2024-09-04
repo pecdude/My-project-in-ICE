@@ -1,0 +1,118 @@
+/* Google fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* { margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.image{
+    position:relative; height: 150px;
+    width: 150px; border-radius: 50%;
+    background-color: blue;
+    padding: 3px; align-items: center;
+    margin-bottom: 10px;
+}
+.profile-card{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+width: 100%;
+background: rgb(224, 216, 216);
+border-radius: 24px;
+padding: 25px;
+box-shadow: 0 5px 10px rgba(0, 0, 0.1);
+position: relative;
+}
+.profile-card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36%;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+background-color: blue;
+}
+body { height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;}
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    align-items: center;
+    color: #3f123b;
+}
+.profile-card .text-data{ 
+    display: flex; flex-direction: column;
+    align-items: center;
+}
+.text-data .name { font-size: 23px;
+font-weight: 600;
+display: flex;
+}
+.text-data .job { font-size: 15px;
+    font-weight: 300;
+    }
+.profile-card .media-buttons{ 
+    display: flex;
+    align-items: center;
+}
+.media-buttons .link{ 
+    height: 34px; 
+    width: 34px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 255);
+    margin: 0 8px;
+    border-radius: 50%;
+    font-size: 18%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: azure;
+
+}
+    .profile-card .buttons{ 
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .buttons .button{
+        background-color: blue;
+        padding: 8px 24px;
+        margin: 0 10px;
+        border: none;
+        border-radius: 24px;
+        color: rgb(255, 255, 255); 
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .buttons .button:hover{ 
+        background-color: rgb(1, 148, 206);
+    }
+    .profile-card .analytics{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        color: black;  
+    }
+    .analytics .data{
+        display: flex;
+        align-items: center;
+padding: 0 20px;
+border-right: 2px solid white;
+    }
+    .data i {
+        font-size: 20px;
+        margin-right: 6px;
+    }
+    .data:last-child{
+      border-right: none;
+    }
+
+    
